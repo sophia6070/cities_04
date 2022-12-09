@@ -75,8 +75,7 @@ body {
     font-size: 20px;
     color: #666;
     padding: 20px 0 ;
-    /* align-items: center; */
-    /* justify-content: center; */
+    line-height: 1.6;
 }
 
 .container ul {
@@ -168,7 +167,8 @@ body {
 .container .item_03 .text h2 {
     text-align: left;
     padding: 0;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
+    padding-top: 20px;
 }
 
 
