@@ -1,7 +1,188 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+  } 
+  
 
 body {
-   
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #333;
+    }
+
+.head h1 {
+    font-size: 50px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 160px;
+    color: #111;
+    }
+
+.nav { 
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    }
+
+.nav ul {
+    width: 1000px;
+    display: flex;
+    padding: 0 20px;
+    margin: 0 auto;
+    }
+
+.nav ul li a {
+    display: block; 
+    height: 70px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    font-weight: 700;    
+    }
+
+.container {
+    width: 1000px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    font-size: 40px;
+    color: #333;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .text_box {
+    font-size: 20px;
+    color: #666;
+    padding: 20px 0 ;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.container ul {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+/* .item_01 */
+
+.container .item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item .photo {
+    width: 240px;
+    height: 240px;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 240px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container .item .photo.london {
+    background-image: url(../images/london_b.jpg);
+}
+
+.container .item .photo.paris {
+    background-image: url(../images/paris_b.jpg);
+}
+
+.container .item .photo.tokyo {
+    background-image: url(../images/tokyo_b.jpg);
+}
+
+.container .item .text {
+    width: 300px;
+    text-align: center;
+}
+
+.container .item .text h2 {
+    padding: 16px 0;
+}
+
+/* .item_02 */
+
+.container .item_02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .item_02 .photo {
+    width: 300px;
+    height: 300px;
+    background-color: #ddd;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container .item_02 .photo.photo.london {
+    background-image: url(../images/london_b.jpg);
+}
+
+.container .item_02 .photo.photo.photo.paris {
+    background-image: url(../images/paris_b.jpg);
+}
+
+.container .item_02 .photo.photo.photo.tokyo {
+    background-image: url(../images/tokyo_b.jpg)
+}
+
+.container .item_02 .text {
+    width: 300px;
+    text-align: center;
+}
+
+/* .item_03 */
+
+.container .item_03 li {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.container .item_03 .text h2 {
+    text-align: left;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+
+/* .bottom */
+.bottom {
+    font-size: 14px;
+    color: #666;
+    align-items: center;
+    display: flex;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+    padding: 20px;
+    height: 160px;
+    justify-content: center;
+
 }
