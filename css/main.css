@@ -45,17 +45,21 @@ body {
     display: flex;
     padding: 0 20px;
     margin: 0 auto;
-    }
+    align-items: center;
+    justify-content: center;
+}
 
 .nav ul li a {
     display: block; 
-    height: 70px;
-    padding: 0 30px;
+    height: 80px;
+    padding: 0 60px;
     display: flex;
     align-items: center;
     justify-content:center;
-    font-weight: 700;    
-    }
+    font-weight: 700; 
+   
+      
+}
 
 .container {
     width: 1000px;
